@@ -12,6 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
            $response['id'] = $user['id'];
            $response['student_id'] = $user['student_id'];
            $response['password'] = $user['password'];
+    
         }else{
             $response['error'] = true;
             $response['message'] = "Invalid id or course";        
